@@ -1,7 +1,6 @@
 package qvision.question;
 
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.*;
 import net.serenitybdd.screenplay.targets.Target;
 import org.jsoup.Jsoup;
 import qvision.util.RegistrarInformacion;

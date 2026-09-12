@@ -1,6 +1,7 @@
 package qvision.util;
 
 import io.github.cdimascio.dotenv.Dotenv;
+import net.datafaker.Faker;
 import qvision.util.file.propiedades.*;
 import qvision.util.interfaces.propiedades.ControlArchivoPropiedades;
 
@@ -27,5 +28,7 @@ public class Constantes {
     public static final String EXTENSION_TEMP_CRDOWNLOAD = ".crdownload";
 
     public static final String EXTENSION_TEMP_PART = ".part";
+
+    public static final Faker GENERADOR_DE_DATOS = new Faker();
 
 }

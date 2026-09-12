@@ -10,7 +10,7 @@ import qvision.util.UtilidadesRectangulo;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static qvision.ui.BonBonitePortalAccesoUI.TODOS_LOS_ELEMENTOS;
+import static qvision.ui.BonBonitePortalAccesoUI.*;
 
 public class ElElementoWeb implements Question<Boolean> {
 

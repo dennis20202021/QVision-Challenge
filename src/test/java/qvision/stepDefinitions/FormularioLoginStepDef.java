@@ -2,7 +2,7 @@ package qvision.stepDefinitions;
 
 import io.cucumber.java.es.*;
 import net.serenitybdd.screenplay.actors.OnStage;
-import qvision.task.IngresarAPaginaRegistroTask;
+import qvision.task.*;
 
 public class FormularioLoginStepDef {
 
@@ -13,4 +13,10 @@ public class FormularioLoginStepDef {
         );
     }
 
+    @Y("ingresa los datos de {string}, {string} de inicio de sesión válidos")
+    public void ingresaLosDatosDeDeInicioDeSesiónValidos(String cedula, String contrasena) {
+        OnStage.theActorInTheSpotlight().attemptsTo(
+                IniciarSesionTask.conDatos(cedula, contrasena)
+        );
+    }
 }

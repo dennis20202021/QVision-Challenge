@@ -1,9 +1,7 @@
 package qvision.service.suite;
 
 import qvision.service.TrazaDeDatos;
-import qvision.util.Cargar;
-import qvision.util.LectorFeature;
-import qvision.util.MonitoreoDeArchivos;
+import qvision.util.*;
 
 import java.util.Map;
 

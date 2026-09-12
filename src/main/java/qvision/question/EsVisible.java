@@ -1,7 +1,6 @@
 package qvision.question;
 
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.*;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.ui.FluentWait;
